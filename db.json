@@ -27,6 +27,12 @@
       "email": "",
       "password": "",
       "id": 5
+    },
+    {
+      "username": "alex",
+      "email": "alex@gmail.com",
+      "password": "1234",
+      "id": 6
     }
   ]
 }

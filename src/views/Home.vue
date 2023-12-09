@@ -2,7 +2,8 @@
   <v-layout>
     <v-app-bar fluid color="primary" style="height: 90px" align="center">
       <router-link to="/" class="nav-link" style="text-decoration: none">
-        <v-app-bar-title class="d-flex justify-start pl-3 text-white"
+        <v-app-bar-title
+          class="d-flex justify-start pl-3 text-white font-weight-bold text-h5"
           >Weather App</v-app-bar-title
         ></router-link
       >
@@ -33,8 +34,9 @@
         </router-link>
       </v-col>
     </v-app-bar>
-
-    <router-view></router-view>
+    <v-main>
+      <router-view></router-view>
+    </v-main>
   </v-layout>
 </template>
 

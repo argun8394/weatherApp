@@ -3,13 +3,9 @@ import Api from "../../api";
 const state = {
   all: [],
   detail: {},
-
-
 };
 const actions = {
 
-  // ?lat={lat}&lon={lon}&appid={API key}
-  // getAll: async (context, params) => {
   getAll: async (context, params) => {
     let url = params ? `/data/2.5/weather?` : `/data/2.5/weather`;
     if (params) {
