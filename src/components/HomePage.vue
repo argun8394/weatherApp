@@ -14,6 +14,10 @@
         <h3 class="font-weight-black text-h3">
           Sign up to use the weather app
         </h3>
+        <router-link to="/signup">
+          <!-- <v-btn style="width: 200px; height: 40px">Sign Up</v-btn> -->
+          <h4 class="font-weight-black text-h4">for Sign Up</h4>
+        </router-link>
       </v-col>
     </v-row>
   </v-container>
