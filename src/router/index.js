@@ -31,6 +31,13 @@ const routes = [
 
         component: () => import(/* webpackChunkName: "home" */ '@/views/Weather.vue'),
         meta: { requiresAuth: true },
+      },
+      {
+        path: '/cities',
+        name: 'Cities',
+
+        component: () => import(/* webpackChunkName: "home" */ '@/views/CitiesList.vue'),
+        meta: { requiresAuth: true },
       }
     ],
   },

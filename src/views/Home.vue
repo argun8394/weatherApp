@@ -10,6 +10,14 @@
       <v-spacer></v-spacer>
       <v-col class="d-flex justify-end">
         <router-link
+          to="/cities"
+          class="nav-link"
+          :class="{ 'active-link': $route.path === '/cities' }"
+        >
+          <v-btn style="color: white; border-radius: 16px"> Cities </v-btn>
+        </router-link>
+        <v-divider class="mx-2" vertical />
+        <router-link
           to="/weather"
           class="nav-link"
           :class="{ 'active-link': $route.path === '/weather' }"
